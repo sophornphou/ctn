@@ -1,0 +1,18 @@
+.mymod_class {
+		position:relative;
+		width:100%;
+		height:300px;
+		border:1px solid #000000;
+	}
+	.mymod_sub_class {
+		font-style:italic;
+	}
+	
+	/* gray.css */
+	.mymod_class {
+		border-color:#dedede;
+		color:#7f7f7f;
+	}
+	.mymod_sub_class {
+		color:#C30;
+	}

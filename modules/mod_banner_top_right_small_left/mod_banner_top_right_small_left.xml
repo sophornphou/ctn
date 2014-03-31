@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" ?> 
+<extension type="module" version="3.1" client="site" method="upgrade">
+<name>mod_banner_top_right_small_left</name>
+<author>sophorn</author>
+<creationDate>04 September 2014</creationDate>
+<version>3.1.0</version>
+<description>Module Banner Right Top Left</description>
+<files>
+	<filename module="mod_banner_top_right_small_left">mod_banner_top_right_small_left.php</filename>
+	<folder>tmpl</folder>
+	<folder>css</folder>
+	<filename>helper.php</filename>
+	<filename>index.html</filename>
+	<filename>mod_banner_top_right_small_left.xml</filename>
+</files>
+<config>
+		<fields name="params">
+			<fieldset name="advanced">
+				<field name="image_adv" type="media"
+					label="Change Advertise" description="Advertise Image" default="Image Avertise" />
+					
+			</fieldset>
+		</fields>
+	</config>
+</extension>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metafile version="2.5"  client="site" method="upgrade" >
+		<tag>km-KH</tag>
+		<name>Khmer (Cambodia)</name>
+		<description>Khmer site language for Joomla 2.5.4</description>
+		<version>2.5.4</version>
+		<creationDate>2012-03-11</creationDate>
+		<author>Khmer Translation Team</author>
+		<authorEmail>info@km-kh.org</authorEmail>
+		<authorUrl>km-KH.org</authorUrl>
+		<copyright>Copyright (C) 2005 - 2012 Open Source Matters &amp;  km-KH.com. All rights reserved.</copyright>
+		<license>GNU General Public License version 2 or later; see LICENSE.txt</license>
+		<metadata>
+				<name>Khmer (Cambodia)</name>
+				<tag>km-KH</tag>
+				<rtl>0</rtl>
+				<locale>km-KH.utf8, km-KH.UTF-8, km-KH.UTF-8@riel, Khmer_Standard,khmer, km-KH, khm_KH, km, cambodia</locale>
+				<firstDay>1</firstDay>
+		</metadata>
+		<params />
+</metafile>

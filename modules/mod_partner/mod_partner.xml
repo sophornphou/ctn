@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8" ?> 
+<extension type="module" version="3.1" client="site" method="upgrade">
+<name>mod_partner</name>
+<author>sophorn</author>
+<creationDate>04 September 2014</creationDate>
+<version>3.1.0</version>
+<description>Module Partner</description>
+<files>
+	<filename module="mod_partner">mod_partner.php</filename>
+	<folder>tmpl</folder>
+	<folder>css</folder>
+	<folder>js</folder>
+	<filename>helper.php</filename>
+	<filename>index.html</filename>
+	<filename>mod_partner.xml</filename>
+</files>
+<config>
+		<fields name="params">
+			<fieldset name="advanced">
+				<field name="image_adv1" type="media"
+					label="Latest 1" description="Latest Image1" default="" />
+				<field name="image_adv2" type="media"
+					label="Latest 2" description="Latest Image2" default="" />
+				<field name="image_adv3" type="media"
+					label="Latest 3" description="Latest Image3" default="" />
+				<field name="image_adv4" type="media"
+					label="Latest 4" description="Latest Image4" default="" />
+				<field name="image_adv5" type="media"
+					label="Latest 5" description="Latest Image5" default="" />
+				<field name="image_adv6" type="media"
+					label="Latest 6" description="Latest Image6" default="" />
+				<field name="image_adv7" type="media"
+					label="Latest 7" description="Latest Image7" default="" />
+				<field name="image_adv8" type="media"
+					label="Latest 8" description="Latest Image8" default="" />
+				<field name="image_adv9" type="media"
+					label="Latest 9" description="Latest Image9" default="" />
+				<field name="image_adv10" type="media"
+					label="Latest 10" description="Latest Image10" default="" />
+					
+			</fieldset>
+		</fields>
+	</config>
+</extension>

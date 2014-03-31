@@ -1,0 +1,283 @@
+#cboxContent, #s5_body_padding {
+direction:rtl;
+text-align:right;
+}
+
+#s5_center_area1, .s5_is_wrap {
+direction:ltr;
+}
+
+#s5_search_wrap {
+float:left;
+}
+
+#s5_button_frame ul li {
+float:right !important;
+margin-right:0px !important;
+}
+
+#s5_button_frame ul li, li.pagenav-prev a, li.pagenav-next a {
+float:right;
+}
+
+#s5_button_wrap1 {
+margin-left:0px !important;
+margin-right:0px !important;
+}
+
+#s5_logo, #s5_logo_module {
+float:right;
+}
+
+.module_round_box ul.menu li ul li {
+margin-left:0px;
+margin-right:24px;
+}
+
+ul.actions {
+float:left;
+}
+
+#cboxClose {
+    float: left !important;
+    height: 12px !important;
+    margin: 26px 0px 0px 26px !important;
+    right: auto !important;
+	left:0 !important;
+}
+
+#loading_img {
+visibility:hidden;
+}
+
+.s5_am_toggler {
+text-indent:22px;
+}
+
+div.s5_accordion_menu_element li a, .s5_am_inner_li .separator span {
+background-position:center right !important;
+padding-left:0px;
+padding-right:18px;
+}
+
+#s5_accordion_menu h3.s5_am_parent span.s5_accordion_menu_left, h3 span.s5_accordion_menu_left {
+padding-right: 50px !important;
+}
+
+.contact_module {
+background:none;
+}
+
+
+/* Flex Menu
+----------------------------------------------------------- */
+
+#s5_nav, #subMenusContainer {
+direction:rtl;
+}
+
+#s5_nav li {
+float:right;
+}
+
+#subMenusContainer a, #s5_nav li li a {
+text-align:right;
+}
+
+.subParentBtn .S5_submenu_item a {
+background:none;
+}
+
+#s5_nav li {
+margin-left:0px;
+border-right:none;
+}
+
+#s5_nav li.mainParentBtn .s5_level1_span2 a {
+background-position:center left !important;
+}
+
+.subParentBtn .S5_submenu_item a {
+background:none !important;
+}
+
+#s5_nav li.mainParentBtn .s5_level1_span2 a {
+padding-right:0px;
+padding-left:20px;
+}
+
+div.S5_grouped_child_item {
+padding-left:0px;
+padding-right:17px;
+}
+
+.s5_sub_wrap, .s5_sub_wrap_lower, .s5_sub_wrap_rtl, .s5_sub_wrap_lower_rtl {
+margin-left:8px !important;
+}
+
+/* End Flex Menu
+----------------------------------------------------------- */
+
+
+#s5_component_wrap {
+direction:rtl;
+text-decoration:right;
+}
+
+
+
+.popular_item img {
+float:right;
+margin-right:0px;
+margin-left:14px;
+}
+
+.s5_va_inactive span.s5_va_h3_inner_span, .s5_va_active span.s5_va_h3_inner_span {
+margin-right:28px !important;
+}
+
+#s5_button_frame {
+float:left;
+margin-left:7px;
+}
+
+#s5_button_frame ul li {
+float:right !important;
+margin-right:0px !important;
+}
+
+#s5_button_frame ul li {
+float:right;
+}
+
+#s5_tabshow_left {
+direction:ltr;
+}
+
+#s5_menu_wrap {
+float:right;
+}
+
+.s5_page_heading {
+float:right;
+}
+
+@media screen and (max-width: 970px){
+	
+	#s5_menu_wrap {
+	margin-left:0px !important;
+	margin-right:30px !important;
+	}
+	
+	#s5_nav li .s5_level1_span1 {
+	padding-left:10px !important;
+	padding-right:12px !important;
+	}
+	
+}
+
+#s5_pos_banner {
+float:left;
+}
+
+#s5_footer_area1 {
+text-align:left;
+}
+
+.module_round_box_outer ul li a, .module_round_box_outer ul.menu li span {
+background:none;
+}
+
+
+.btn-group > .btn:first-child,
+.radio.btn-group > label:first-of-type {
+  margin-left: 0;
+  -webkit-border-bottom-left-radius: 2px;
+  border-bottom-left-radius: 2px;
+  -webkit-border-top-left-radius: 2px;
+  border-top-left-radius: 2px;
+  -moz-border-radius-bottomleft: 2px;
+  -moz-border-radius-topleft: 2px;
+  -webkit-border-bottom-right-radius: 2px;
+  border-bottom-right-radius: 2px;
+  -webkit-border-top-right-radius: 2px;
+  border-top-right-radius: 2px;
+  -moz-border-radius-bottomright: 2px;
+  -moz-border-radius-topright: 2px;
+}
+.btn-group > .btn:last-child,
+.btn-group > .dropdown-toggle {
+  -webkit-border-top-right-radius: 0px;
+  border-top-right-radius: 0px;
+  -webkit-border-bottom-right-radius: 0px;
+  border-bottom-right-radius: 0px;
+  -moz-border-radius-topright: 0px;
+  -moz-border-radius-bottomright: 0px;
+  -webkit-border-top-left-radius: 2px;
+  border-top-left-radius: 2px;
+  -webkit-border-bottom-left-radius: 2px;
+  border-bottom-left-radius: 2px;
+  -moz-border-radius-topleft: 2px;
+  -moz-border-radius-bottomleft: 2px;
+}
+.btn-group > .btn.large:first-child {
+  -webkit-border-bottom-left-radius: 0px;
+  border-bottom-left-radius: 0px;
+  -webkit-border-top-left-radius: 0px;
+  border-top-left-radius: 0px;
+  -moz-border-radius-bottomleft: 0px;
+  -moz-border-radius-topleft: 0px;
+  margin-right: 0;
+  -webkit-border-bottom-right-radius: 2px;
+  border-bottom-right-radius: 2px;
+  -webkit-border-top-right-radius: 2px;
+  border-top-right-radius: 2px;
+  -moz-border-radius-bottomright: 2px;
+  -moz-border-radius-topright: 2px;
+}
+.btn-group > .btn.large:last-child,
+.btn-group > .large.dropdown-toggle {
+  -webkit-border-top-right-radius: 0px;
+  border-top-right-radius: 0px;
+  -webkit-border-bottom-right-radius: 0px;
+  border-bottom-right-radius: 0px;
+  -moz-border-radius-topright: 0px;
+  -moz-border-radius-bottomright: 0px;
+  -webkit-border-top-left-radius: 2px;
+  border-top-left-radius: 2px;
+  -webkit-border-bottom-left-radius: 2px;
+  border-bottom-left-radius: 2px;
+  -moz-border-radius-topleft: 2px;
+  -moz-border-radius-bottomleft: 2px;
+}
+.btn-group > .btn:first-child:last-child {
+  margin-left: 0;
+  -webkit-border-top-left-radius: 2px;
+  border-top-left-radius: 2px;
+  -webkit-border-bottom-left-radius: 2px;
+  border-bottom-left-radius: 2px;
+  -moz-border-radius-topleft: 2px;
+  -moz-border-radius-bottomleft: 2px;
+  -webkit-border-bottom-right-radius: 2px;
+  border-bottom-right-radius: 2px;
+  -webkit-border-top-right-radius: 2px;
+  border-top-right-radius: 2px;
+  -moz-border-radius-bottomright: 2px;
+  -moz-border-radius-topright: 2px;
+}
+.btn-group > .btn:first-child,
+.radio.btn-group > label:first-of-type {
+  margin-left: 0;
+  -webkit-border-bottom-left-radius: 0px;
+  border-bottom-left-radius: 0px;
+  -webkit-border-top-left-radius: 0px;
+  border-top-left-radius: 0px;
+  -moz-border-radius-bottomleft: 0px;
+  -moz-border-radius-topleft: 0px;
+  -webkit-border-bottom-right-radius: 2px;
+  border-bottom-right-radius: 2px;
+  -webkit-border-top-right-radius: 2px;
+  border-top-right-radius: 2px;
+  -moz-border-radius-bottomright: 2px;
+  -moz-border-radius-topright: 2px;
+}
